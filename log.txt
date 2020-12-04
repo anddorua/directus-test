@@ -1,0 +1,49 @@
+cache_1     | 1:C 04 Dec 2020 16:42:39.660 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+cache_1     | 1:C 04 Dec 2020 16:42:39.660 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=1, just started
+cache_1     | 1:C 04 Dec 2020 16:42:39.660 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+cache_1     | 1:M 04 Dec 2020 16:42:39.661 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+cache_1     | 1:M 04 Dec 2020 16:42:39.662 * Running mode=standalone, port=6379.
+cache_1     | 1:M 04 Dec 2020 16:42:39.662 # Server initialized
+cache_1     | 1:M 04 Dec 2020 16:42:39.662 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+cache_1     | 1:M 04 Dec 2020 16:42:39.662 * Loading RDB produced by version 6.0.9
+cache_1     | 1:M 04 Dec 2020 16:42:39.662 * RDB age 422 seconds
+cache_1     | 1:M 04 Dec 2020 16:42:39.662 * RDB memory usage when created 0.79 Mb
+cache_1     | 1:M 04 Dec 2020 16:42:39.662 * DB loaded from disk: 0.000 seconds
+cache_1     | 1:M 04 Dec 2020 16:42:39.662 * Ready to accept connections
+database_1  | 
+database_1  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+database_1  | 
+database_1  | 2020-12-04 16:42:40.719 UTC [1] LOG:  starting PostgreSQL 12.5 (Debian 12.5-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+database_1  | 2020-12-04 16:42:40.719 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+database_1  | 2020-12-04 16:42:40.719 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+database_1  | 2020-12-04 16:42:40.724 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+database_1  | 2020-12-04 16:42:40.746 UTC [25] LOG:  database system was shut down at 2020-12-04 16:35:37 UTC
+database_1  | 2020-12-04 16:42:40.754 UTC [1] LOG:  database system is ready to accept connections
+directus_1  | 16:42:41 ? Initializing...
+directus_1  | 16:42:41 ? Checking database connection
+directus_1  | 16:42:43 ? Server started at port 8055
+directus_1  | 16:43:15 ? request completed GET 302 / 8ms
+directus_1  | 16:43:15 ? request completed GET 304 /admin/ 3ms
+directus_1  | 16:43:15 ? request completed GET 304 /admin/css/app.c0a5e884.css 5ms
+directus_1  | 16:43:15 ? request completed GET 304 /admin/css/chunk-vendors.78ef4d89.css 4ms
+directus_1  | 16:43:15 ? request completed GET 304 /admin/js/app.73aef3ff.js 4ms
+directus_1  | 16:43:15 ? request completed GET 304 /admin/js/chunk-vendors.8f64b78c.js 5ms
+directus_1  | 16:43:17 ? request completed GET 304 /admin/img/icons/android-chrome-512x512.png 1ms
+directus_1  | 16:43:17 ? request completed GET 304 /extensions/interfaces/ 14ms
+directus_1  | 16:43:17 ? request completed GET 304 /extensions/displays/ 12ms
+directus_1  | 16:43:17 ? request completed GET 304 /extensions/layouts/ 14ms
+directus_1  | 16:43:17 ? request completed GET 304 /extensions/modules/ 15ms
+directus_1  | 16:43:17 ? request completed POST 401 /auth/refresh 29ms
+directus_1  | 16:43:17 ? request completed GET 304 /server/info 3ms
+directus_1  | 16:43:17 ? request completed GET 304 /admin/fonts/Inter-Medium.c709803c.woff2 1ms
+directus_1  | 16:43:17 ? request completed GET 304 /admin/img/logo-dark.2c0bedba.svg 3ms
+directus_1  | 16:43:17 ? request completed GET 304 /auth/oauth/ 5ms
+directus_1  | 16:43:17 ? request completed GET 304 /admin/fonts/Inter-Regular.1e081edc.woff2 2ms
+directus_1  | 16:43:17 ? request completed GET 304 /admin/fonts/Inter-SemiBold.46633223.woff2 2ms
+directus_1  | 16:43:17 ? request completed GET 304 /admin/fonts/material-icons-outline.f17eb849.woff2 3ms
+directus_1  | 16:43:18 ? request completed GET 304 /admin/manifest.webmanifest 1ms
+directus_1  | 16:43:18 ? request completed GET 304 /admin/img/icons/android-chrome-192x192.png
+directus_1  | 16:43:35 ? request completed GET 304 /admin/css/chunk-vendors.78ef4d89.css 2ms
+directus_1  | 16:43:35 ? request completed GET 304 /admin/css/app.c0a5e884.css 2ms
+directus_1  | 16:43:35 ? request completed GET 304 /admin/manifest.webmanifest 3ms
+directus_1  | 16:43:40 ? request completed POST 401 /auth/login 38ms
